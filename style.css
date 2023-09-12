@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+body {
+      font-family: "Ubuntu";
+      font-weight: 400;
+      font-size: 1rem;
+      overflow-x: hidden;
+      background: #000000 !important;
+  }
+  
+.navbar{
+    background: #52057B;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row;
+}
+.breadcrumbs-alt{
+    float: left;
+    margin-top: 10px;
+    padding: 0;
+}
+.breadcrumbs-alt>li{
+    display: inline-block;
+}
+.breadcrumbs-alt.li.active{
+color: #F2F9FF;
+}
+
+.col{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 0.5rem;
+
+}
+.col-md-3{
+  padding: 0;
+}
+p{
+    color: #F2F9FF;
+}
+:focus {
+    outline: 0;
+  }
+*:hover {
+    transition: all 225ms ease-in-out;
+  }
+  iframe#youtube_channel {
+    text-align: center;
+    height: calc(50vh - 8px);
+    width: calc(70vw - 5px);
+    transition: opacity 750ms ease-in-out;
+    margin-bottom: 20px;
+  }
+  .kapsayici{
+    text-align: center;
+    display:table-caption;
+ 
+  }
+
+.container{
+    text-align: -webkit-center;
+    justify-content: center;
+    display: grid;
+}
+  button#random_vid {
+    margin: 1em;
+    cursor: pointer;
+    background: #BC6FF1;
+    color: #F2F9FF;
+    font-weight: 600 !important;
+    border: 2px solid #892CDC;
+    font-family: inherit;
+    border-radius: 1em;
+    padding: 1em 2em;
+    font-size: 0.7em;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 12px;
+  }
+  button#random_vid:hover {
+    background: #000000;
+    color: #BC6FF1;
+    border: 2px solid #BC6FF1;
+    text-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;
+  }
+  .transparent {
+    opacity: 0;
+  }
+  
+h5{
+  color: #F2F9FF !important;
+  font-weight: 600;
+}
+  a {
+    color: #F2F9FF !important;
+    opacity: 0.8;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  a:hover {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  footer {
+    background: #52057B;
+  }
+
+
+  @media only screen and (min-width: 600px){
+   h1{
+    float: left;
+    font-size: 20px !important;
+    padding-right: 15px;
+    padding-left: 15px;
+   }
+   .breadcrumbs-alt{
+    float: right;
+    margin-bottom: 0.5rem !important;
+
+   }
+   }
+    
